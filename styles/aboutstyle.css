@@ -1,0 +1,284 @@
+/*body{
+	font-family: "Roboto",Helvetica, Arial,sans-sarif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #f0f0f0;
+}
+
+#top{	
+	background-color: #555555;
+	padding: 10px 0;
+}
+
+#top .offer{
+	color: #fff;
+}
+
+#top .offer .btn{
+	text-transform: uppercase;	
+}
+
+@media(max-width: 991px){
+	#top .offer{
+		margin-bottom: 10px;
+	}
+}
+@media(max-width: 991px){
+	#top{
+		font-size: 12px;
+		text-align: center;
+	}
+}
+
+#top a{
+	color: #fff;
+}
+
+#top ul.menu{
+   padding-top: 5px;
+   margin: 0;
+   text-align: right;
+   font-size: 12px;
+   list-style: none;
+}
+
+
+
+@media(max-width: 991px){
+	#top ul.menu{
+		text-align: center;
+	}
+}
+
+#top ul.menu{
+	text-align: center;
+}
+
+#top ul.menu>li{
+    display: inline-block;
+} 
+
+#top ul.menu>li a{
+	color: #eeeeee;
+} 
+
+#top ul.menu>li+li:before{
+	content: "|\00a0";
+	padding: 0 5px;
+	color: #f7f7f7;
+}
+
+Header style	
+
+.navbar {
+	background:white;
+}
+
+.navbar-collapse .right{
+	float:right;
+}
+
+.navbar-brand{
+	float: left;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	height: 70px;
+}																																																					
+
+.navbar-brand:hover,
+.navbar-brand:focus{
+	text-decoration: none;
+}
+
+.navbar ul.nav >li > a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.padding-nav{
+	padding-top: 10px;
+}
+
+.navbar ul.nav > li > a:hover{
+	background: #e7e7e7;
+}
+
+.btn-primary{
+		color: rgb(255, 255, 255);
+		background-color: rgb(79, 191, 168);
+		border-color: rgb(65, 179, 156);
+}
+
+#search .navbar-form{
+	float: right;
+}
+
+#search{
+	clear: both;
+	border-top: solid 1px #9adacd;
+	text-align: right	;
+}
+
+#search .navbar-form .input-group{
+	display: table;
+}
+
+#search .navbar-form .input-group .form-control{
+ width: 100%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #ddd;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+   margin-top: 20px;
+   color: #5d5d5d;
+   font-size: 21px;
+}
+.content-section .content p{
+   margin-top: 10px;
+   font-family: sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+}
+.content-section .content .button {
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding: 12px 40px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color: #fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color: #a52a2a;
+	font-size: 30px;
+	padding: 0px 10px;
+}
+.content-section .social i:hover{
+	color: #3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+		width: 80%;
+		display: block;
+		margin: auto;
+		padding-top: 50px;
+	}
+	.content-section{
+		float: none;
+		width: 100%;
+		display: block;
+		margin: auto;
+	}
+	.image-section{
+		float: none;
+		width: 100%;
+
+	}
+	.image-section img{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+	.content-section .title{
+		text-align: center;
+		font-size: 19px;
+	}
+	.content-section .content .button{
+		text-align: center;
+	}
+	.content-section .content .button a{
+		padding: 9px 30px;
+	}
+	.content-section .social{
+		text-align: center;
+	}
+}                              
+/*--------------------------------------------------------------Footer style
+#footer{
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+
+#footer ul{
+	padding-left: 0;
+	list-style: none;
+}
+#footer ul a{
+	color: #999999;
+	padding: 20px 0;
+}
+#footer .social{
+	text-align: center;
+}
+#footer .social a{
+	margin: 0 10px 0 0 ;
+	color: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+	transform: all 0.2s ease-out;
+	vertical-align: text-bottom;
+	background-color: #555555;
+}
+
+/*Copyright Section*/
+/*#copyright{
+	background: #333;
+	color: #ccc;
+	padding: 20px;
+	font-size: 12px;
+}
+#copyright p{
+	margin: 0px;
+}*/*/*/
